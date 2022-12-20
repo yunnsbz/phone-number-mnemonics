@@ -67,7 +67,7 @@ int main()
 
 		cout << "\n-----------------------------------------\n";
 
-		cout << "sayi giriniz:";
+		cout << "enter number:";
 		cin >> say;
 
 		//kaç tane sayı geldiği belirleniyor
@@ -90,7 +90,7 @@ int main()
 
 		hecele(x);
 
-		cout << "\nkombinasyon sayisi: " << comb;
+		cout << "\ntotal combinations: " << comb;
 		cout << "\n-----------------------------------------\n";
 
 		delete[] x;
@@ -99,7 +99,7 @@ int main()
 		//global değişkenler tekrar kullanılmak için ilk haline getirilir
 		tur = 0;	index = 0;	comb = 1;	kkk = 0;
 		
-		cout << "tekrar denemek icin 1 kapatmak icin 0 basin:";
+		cout << "press 1 to try again and 0 to close:";
 		cin >> tkrr;
 	
 	}while (tkrr);
